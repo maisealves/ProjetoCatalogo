@@ -1,4 +1,4 @@
-body{
+.bglogin{
   background: #d8d8d8;
   padding-top: 25vh ;
 }  
@@ -21,4 +21,14 @@ form{
  margin-top: 50px;
 
   
+}
+.painel{
+  margin-left: 50px;
+}
+.form-busca{
+  width: 100%;
+  border-radius: 2px;
+  padding: 8px;
+  box-shadow: 0px 0px 3px 0px;
+
 }
