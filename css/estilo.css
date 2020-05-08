@@ -34,3 +34,10 @@ form{
   box-shadow: 0px 0px 3px 0px;
 
 }
+.btn-exibicao{
+  padding-top: 78vh ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
