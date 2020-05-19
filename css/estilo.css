@@ -1,25 +1,23 @@
 .bglogin{
   background: #d8d8d8;
-  padding-top: 25vh ;
+  padding-top: 18vh ;
 }  
-form{
-  background: #fff;
-}
+
 .form-container{
   border-radius: 10px;
   padding: 30px;
   box-shadow: 0px 0px 10px 0px;
   margin-top: 50px;
-
+  background: #fff;
+  margin-left: auto;
+ margin-right: auto;
 }
-.bg{
-  width: 220px;
-  height: 100px;
-  position: absolute;
-  top: -150px;
- left: 22%;
- margin-top: 50px;
-
+.imglogin{
+ width: 350px;
+ height: 125px;
+ padding-left: 100px;
+ margin-left: auto;
+ margin-right: auto;
   
 }
 .painel{
