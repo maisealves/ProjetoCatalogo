@@ -37,41 +37,37 @@
       </div>
 
       <div class="row container" style="border-top: 1px solid black;">
-      <form class="s12">
+      <form class="s12" method="POST" action="php_action/cadastra_produto.php" id="formCadastraproduto">
 
         <div class="input-field col s12">
-            <input placeholder="Nome do Produto" id="nome_produto" type="text" class="validate">
+            <input placeholder="Nome do Produto" id="nome_produto" type="text" class="validate" name="nome_produto">
             <label for="nome_produto">Nome do Produto</label>
           </div>
 
         <div class="input-field col s12">
-            <input placeholder="Modelo do Produto" id="modelo_produto" type="text" class="validate">
+            <input placeholder="Modelo do Produto" id="modelo_produto" type="text" class="validate" name="modelo_produto">
             <label for="modelo_produto">Modelo do Produto</label>
-         </div>
-
-         <div class="input-field col s12">
-            <input placeholder="Fornercedor do Produto" id="fornecedor_produto" type="text" class="validate">
-            <label for="fornecedor_produto">Fornecedor do Produto</label>
          </div>
         
          <div class="input-field col s12">
-            <input placeholder="Ano do Produto" id="ano_produto" type="text" class="validate">
+            <input placeholder="Ano do Produto" id="ano_produto" type="text" class="validate" name="ano_produto">
             <label for="ano_produto">Ano do Produto</label>
          </div>
         
          <div class="input-field col s12">
-            <textarea placeholder="Especificações do Produto" class="materialize-textarea"></textarea>
+            <textarea placeholder="Especificações do Produto" class="materialize-textarea" name="especificacoes_produto"></textarea>
           <label for="especificacoes_produto">Especificações do Produto</label>
          </div>
         
        
         
         <div class="divider black" style="margin-top: 1%; margin-bottom: 2%;"></div>
+        <div class="col s12 center">
+          <button class="btn waves-effect waves-light  blue darken-4 " name = "btn-cadastrar"  type="submit" name="action" style="border-radius: 4px;">Cadastrar
+          </button>&nbsp;&nbsp;
+        </div>
       </form><br>
-      <div class="col s12 center">
-        <button class="btn waves-effect waves-light  blue darken-4" type="submit" name="action" style="border-radius: 4px;">Cadastrar
-        </button>&nbsp;&nbsp;
-      </div>
+      
     </div>
       
 

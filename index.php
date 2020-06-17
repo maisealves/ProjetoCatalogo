@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
   <html>
     <head>
@@ -10,6 +12,15 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <script language="javascript" type="text/javascript">
+        $(document).ready(function(){
+          $('#btn_login').click(function(){
+            alert('clicado');
+          });
+        });
+      </script>
+
     </head>
     <body class ="bglogin">
       <div class="row" >
@@ -17,27 +28,31 @@
         <div >
           <img class="imglogin" src="img/Agromakmaquinas.png">
         </div>
-      <div class="form-container">
+    <form method="POST" action="login.php" id="login"> 
+      <div class="form-container" > 
           <div class="card-content" >
-            <div class="form-field">
+            <div class="form-field" >
               <label for="username">Usuário</label>
-              <input type="text" id="username">
+              <input type="text" id="username" name="usuario">
             </div>
 
             <div class="form-field">
               <label for="password">Senha</label>
-              <input type="password" id="password">
+              <input type="password" id="password" name="senha">
             </div>
 
             <div class="form-field">
-              <button class="btn-large waves-effect waves-dark" style="width:100%; background-color: #1c0ad1;">Login</button>
+              <button class="btn-large waves-effect waves-dark" style="width:100%; background-color: #1c0ad1;" id = "btn_login">Login</button>
             </div>
-
+            <br/>
           </div>
         </div>
         </div>
       </div>
-      
+     
+
+    </form> 
+
       <script src = "https://code.jquery-1.12.0.min.js"></script>
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="js/materialize.min.js"></script>

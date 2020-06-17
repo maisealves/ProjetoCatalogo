@@ -1,6 +1,8 @@
+
+
 <!DOCTYPE html>
   <html>
-    <head>
+    <head> 
       <meta charset="UTF-8"/>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,14 +20,14 @@
           <label class="brand-logo center ">Adminstrador</label>
             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Cadastrar Produto</a></li>
+            <li><a href="dashboard_cadastrar.html">Cadastrar Produto</a></li>
             <li><a href="dashboard_user.html">Exibição de Usuário</a></li>
-            <li><a href="#">Sair</a></li>
+            <li><a href="logout.php">Sair</a></li>
           </ul>
           <ul class="side-nav blue darken-4" id="mobile-demo">
             <li><a href="#" class="white-text">Cadastrar Produto</a></li>
             <li><a href="dashboard_user.html" class="white-text">Exibição de Usuário</a></li>
-            <li><a href="#" class="white-text">Sair</a></li>
+            <li><a href="index.php" class="white-text">Sair</a></li>
         </ul>
       </div>
     </nav>
